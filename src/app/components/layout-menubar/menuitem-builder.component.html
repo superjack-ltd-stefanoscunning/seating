@@ -1,0 +1,6 @@
+<ng-container *ngIf="item!==undefined && table!==undefined">
+  <app-2seat60 *ngIf="table.type==='2seat60'" [table]="table"></app-2seat60>
+  <app-4seat80 *ngIf="table.type==='4seat80'" [table]="table"></app-4seat80>
+  <app-2seat60by75 *ngIf="table.type==='2seat60by75'" [table]="table"></app-2seat60by75>
+  <app-2seat60by60 *ngIf="table.type==='2seat60by60'" [table]="table"></app-2seat60by60>
+</ng-container>

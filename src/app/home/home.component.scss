@@ -1,0 +1,60 @@
+.page-container {
+  margin: 10px;
+}
+h2 {
+  display: block;
+  text-align: center;
+}
+.designer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.designer-toolbox {
+  flex: 10%;
+}
+
+.designer-canvas {
+  flex: 80%;
+}
+
+.menubar {
+  width: 100%;
+}
+
+.layout-canvas {
+  width: 100%;
+  min-height: 100px;
+  margin-left: 10px;
+}
+
+.btn-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn-designer {
+  width: 100%;
+  flex: 1;
+}
+
+.static {
+  cursor: not-allowed;
+}
+.draggable {
+  cursor: move;
+}
+
+.svg-template {
+  width: 100px !important;
+  height: 50px !important;
+}
+
+image.draggable {
+  cursor: move;
+  &:hover {
+    border: 1px solid #000;
+  }
+}

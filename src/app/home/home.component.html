@@ -1,0 +1,34 @@
+<div class="page-container">
+<h1>Home</h1>
+<div class="designer-container">
+<div class="designer-toolbox">
+  <div class="menubar">
+    <layout-menubar
+    (createItem)="onCreateTableStarted($event)"></layout-menubar>
+  </div>
+  <div class="btn-container">
+    <button class="btn-designer" mat-flat-button color="primary">Change room size</button>
+  </div>
+</div>
+<div class="designer-canvas">
+  <h2>Room Dimensions {{layoutDesigner.roomLength}}m L X {{layoutDesigner.roomWidth}}m W</h2>
+  <div class="layout-canvas">
+    <svg id="layoutDesigner" xmlns="http://www.w3.org/2000/svg" [attr.viewBox]=viewBox>
+      <defs></defs>
+      <rect width="100%" height="100%" fill="#e8e8e8"  />
+
+      </svg>
+  </div>
+</div>
+
+</div>
+
+<div id="tempBuilder" style="visibility: hidden">
+  <menuitem-builder id="menuBuilder" *ngIf="item!==undefined && tableSelected!==undefined"
+  [item]="item" [table]="tableSelected"
+  ></menuitem-builder>
+</div>
+<div id="selectedSvgLibrary" style="visibility: hidden">
+
+</div>
+</div>

@@ -1,0 +1,26 @@
+<div *ngIf="menu!==undefined" class="menu">
+  <h2>{{menu.name}}</h2>
+  <small class="small-accent" *ngIf="menu.description">{{menu.description}}</small>
+  <mat-accordion multi>
+    @for(group of menu.groups; track group){
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{group.name}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngIf="group.items.length>0" class="menu-group-items">
+        @for(item of group.items; track item){
+          <div (click)="addItem(item)" class="menu-item">
+          <menuitem-builder
+          [item]="item"
+          [table]="item.table"
+          ></menuitem-builder>
+          <small>{{item.name}}</small>
+        </div>
+        }
+      </div>
+    </mat-expansion-panel>
+  }
+    </mat-accordion>
+</div>

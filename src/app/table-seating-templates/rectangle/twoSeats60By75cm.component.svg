@@ -1,0 +1,22 @@
+<svg class="svg-template" id="template-2Seat60X75" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>60x75cm - 2 seats</title>
+  <g [attr.id]="tableSeatsShapeId">
+   <g [attr.id]="tableSeatGroupId">
+    <g [attr.id]="tableGroupId">
+     <rect [attr.class]="table.class" [attr.fill]="table.fill" height="276.01" [attr.id]="table.id" [attr.stroke]="table.stroke" width="345.01" x="226.81" y="160.68"/>
+     <text [attr.class]="table.labelClass" [attr.fill]="table.labelFill" font-family="Serif" font-size="24" [attr.id]="table.labelId" [attr.stroke]="table.labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(4.6001 0 0 4.6001 -242.021 -403.114)" x="139.42" xml:space="preserve" y="160.56">{{table.label}}</text>
+     <text [attr.class]="table.sizeClass" [attr.fill]="table.sizeFill" font-family="Serif" font-size="24" [attr.id]="table.sizeId" [attr.stroke]="table.sizeStroke" stroke-width="0" text-anchor="middle" x="403" xml:space="preserve" y="424">{{table.size}}</text>
+    </g>
+    <g [attr.id]="table.seats[0].groupId">
+     <ellipse [attr.class]="table.seats[0].class" cx="107.56" cy="298.69" [attr.fill]="table.seats[0].fill" [attr.id]="table.seats[0].id" rx="92" ry="92" [attr.stroke]="table.seats[0].stroke"/>
+     <text [attr.class]="table.seats[0].labelClass" [attr.fill]="table.seats[0].labelFill" font-family="Serif" font-size="24" [attr.id]="table.seats[0].labelId" [attr.stroke]="table.seats[0].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(4.6001 0 0 4.6001 -242.021 -403.114)" x="75.99" xml:space="preserve" y="160.56">{{table.seats[0].label}}</text>
+    </g>
+    <g [attr.id]="table.seats[1].groupId">
+     <ellipse [attr.class]="table.seats[1].class" cx="691.5" cy="298.69" [attr.fill]="table.seats[1].fill" [attr.id]="table.seats[1].id" rx="92" ry="92" [attr.stroke]="table.seats[1].stroke"/>
+     <text [attr.class]="table.seats[1].labelClass" [attr.fill]="table.seats[1].labelFill" font-family="Serif" font-size="24" id="seat_text_2" [attr.stroke]="table.seats[1].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(4.6001 0 0 4.6001 -242.021 -403.114)" x="202.93" xml:space="preserve" y="160.56">{{table.seats[1].label}}</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

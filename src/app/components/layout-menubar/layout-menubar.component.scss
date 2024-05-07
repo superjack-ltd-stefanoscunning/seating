@@ -1,0 +1,27 @@
+.menu {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+}
+.menu-group-items {
+  width: 100%;
+}
+.menu-item {
+  width: 90%;
+  background-color: #e8e8e8;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+  }
+}
+small {
+  font-weight: bold;
+}
+.small-accent {
+  color: palevioletred;
+}

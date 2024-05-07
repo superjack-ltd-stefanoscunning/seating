@@ -1,0 +1,30 @@
+<svg class="svg-template" id="template-4Seat80" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>80cm - 4 seats</title>
+  <g [attr.id]="tableSeatsShapeId">
+   <g [attr.id]="tableSeatGroupId">
+    <g [attr.id]="tableGroupId">
+      <ellipse [attr.class]="table.class" cx="400.22" cy="298.3" fill="#ffffaa" [attr.id]="table.id" rx="116.79" ry="116.79" [attr.stroke]="table.stroke"/>
+      <text [attr.class]="table.labelClass" [attr.fill]="table.labelFill" font-family="Serif" font-size="24" [attr.id]="table.labelId" [attr.stroke]="table.labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(3.8723 0 0 3.8723 -241.377 -438.836)" x="166.35" xml:space="preserve" y="197.22">{{table.label}}</text>
+      <text [attr.class]="table.sizeClass" [attr.fill]="table.sizeFill" font-family="Serif" font-size="24" [attr.id]="table.sizeId" [attr.stroke]="table.sizeStroke" stroke-width="0" text-anchor="middle" transform="matrix(0.841789 0 0 0.841789 -18.2144 8.68865)" x="499.93" xml:space="preserve" y="462.31">{{table.size}}</text>
+     </g>
+     <g [attr.id]="table.seats[0].groupId">
+      <ellipse [attr.class]="table.seats[0].class" cx="187.45" cy="293.98" [attr.fill]="table.seats[0].fill" [attr.id]="table.seats[0].id" rx="77.45" ry="77.45" [attr.stroke]="table.seats[0].stroke"/>
+      <text [attr.class]="table.seats[0].labelClass" [attr.fill]="table.seats[0].labelFill" font-family="Serif" font-size="24" [attr.id]="table.seats[0].labelId" [attr.stroke]="table.seats[0].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(3.8723 0 0 3.8723 -65.6028 -319.292)" x="65.34" xml:space="preserve" y="166.37">{{table.seats[0].label}}</text>
+     </g>
+     <g [attr.id]="table.seats[1].groupId">
+      <ellipse [attr.class]="table.seats[1].class" cx="620.49" cy="293.98" [attr.fill]="table.seats[1].fill" [attr.id]="table.seats[1].id" rx="77.45" ry="77.45" [attr.stroke]="table.seats[1].stroke"/>
+      <text [attr.class]="table.seats[1].labelClass" [attr.fill]="table.seats[1].labelFill" font-family="Serif" font-size="24" [attr.id]="table.seats[1].labelId" [attr.stroke]="table.seats[1].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(3.8723 0 0 3.8723 -65.6028 -319.292)" x="177.18" xml:space="preserve" y="166.37">{{table.seats[1].label}}</text>
+     </g>
+     <g [attr.id]="table.seats[2].groupId">
+      <ellipse [attr.class]="table.seats[2].class" cx="400.22" cy="89.5" [attr.fill]="table.seats[2].fill" [attr.id]="table.seats[2].id" rx="77.45" ry="77.45" [attr.stroke]="table.seats[2].stroke"/>
+      <text [attr.class]="table.seats[2].labelClass" [attr.fill]="table.seats[2].labelFill" font-family="Serif" font-size="24" [attr.id]="table.seats[2].labelId" [attr.stroke]="table.seats[2].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(3.8723 0 0 3.8723 -65.603 -319.292)" x="120.29" xml:space="preserve" y="113.57">{{table.seats[2].label}}</text>
+     </g>
+     <g [attr.id]="table.seats[3].groupId">
+      <ellipse [attr.class]="table.seats[3].class" cx="400.22" cy="511.14" [attr.fill]="table.seats[3].fill" [attr.id]="table.seats[3].id" rx="77.45" ry="77.45" [attr.stroke]="table.seats[3].stroke"/>
+      <text [attr.class]="table.seats[3].labelClass" [attr.fill]="table.seats[3].labelFill" font-family="Serif" font-size="24" [attr.id]="table.seats[3].labelId" [attr.stroke]="table.seats[3].labelStroke" stroke-width="0" text-anchor="middle" transform="matrix(3.8723 0 0 3.8723 -65.6028 -319.292)" x="120.29" xml:space="preserve" y="222.45">{{table.seats[3].label}}</text>
+     </g>
+    </g>
+   </g>
+  </g>
+</svg>
